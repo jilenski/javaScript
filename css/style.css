@@ -189,3 +189,8 @@ body {
 .login-container button:hover {
   background-color: rgb(0, 221, 223);
 }
+
+ul.items {
+  padding: 2rem;
+  font-size: 16px;
+}
