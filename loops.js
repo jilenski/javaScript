@@ -17,6 +17,34 @@ const contacts = [
 ];
 
 /*
+//convert array object in JSON format
+const contactsJSON = JSON.stringify(contacts);
+
+console.log(contactsJSON);
+*/
+
+/* connecting functions */
+//if you want to filter the data with specific value + acess specific data based on value
+const contactsPhone = contacts
+  .filter(function (contact) {
+    return contact.isSaved == "Phone";
+  })
+  .map(function (contact) {
+    return contact.fullName;
+  });
+
+console.log(contactsPhone); //access filtered array object
+
+/*
+//loop array object using .map() if you want the output to be array
+const contactsFullName = contacts.map(function (contact) {
+  return contact.fullName;
+});
+
+console.log(contactsFullName);
+*/
+
+/*
 //looping array objects using for of - *OPTIMIZED*
 for (let contact of contacts) {
   // console.log(contact); //access all objects
