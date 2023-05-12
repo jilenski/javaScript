@@ -150,6 +150,7 @@ body {
   width: 100%;
   height: auto;
   text-align: center;
+  margin-bottom: 1rem;
 }
 
 .form-element {
@@ -193,4 +194,9 @@ body {
 ul.items {
   padding: 2rem;
   font-size: 16px;
+}
+
+.error {
+  font-weight: bold;
+  color: red;
 }
