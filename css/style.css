@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial";
+}
+
+#formlogin {
+  background-image: linear-gradient(
+      90deg,
+      rgba(125, 125, 125, 0) 0%,
+      rgba(125, 125, 125, 0) 7%,
+      rgba(194, 194, 194, 0) 7%,
+      rgba(194, 194, 194, 0) 29%,
+      rgba(124, 124, 124, 0) 29%,
+      rgba(124, 124, 124, 0) 57%,
+      rgba(237, 237, 237, 0) 57%,
+      rgba(237, 237, 237, 0) 59%,
+      rgba(110, 110, 110, 0) 59%,
+      rgba(110, 110, 110, 0) 100%
+    ),
+    linear-gradient(
+      90deg,
+      rgba(6, 6, 6, 0.01) 0%,
+      rgba(6, 6, 6, 0.01) 20%,
+      rgba(210, 210, 210, 0.01) 20%,
+      rgba(210, 210, 210, 0.01) 64%,
+      rgba(10, 10, 10, 0.01) 64%,
+      rgba(10, 10, 10, 0.01) 82%,
+      rgba(72, 72, 72, 0.01) 82%,
+      rgba(72, 72, 72, 0.01) 88%,
+      rgba(127, 127, 127, 0.01) 88%,
+      rgba(127, 127, 127, 0.01) 100%
+    ),
+    linear-gradient(
+      90deg,
+      rgba(4, 4, 4, 0.06) 0%,
+      rgba(4, 4, 4, 0.06) 56%,
+      rgba(6, 6, 6, 0.06) 56%,
+      rgba(6, 6, 6, 0.06) 65%,
+      rgba(110, 110, 110, 0.06) 65%,
+      rgba(110, 110, 110, 0.06) 83%,
+      rgba(136, 136, 136, 0.06) 83%,
+      rgba(136, 136, 136, 0.06) 100%
+    ),
+    linear-gradient(
+      349deg,
+      rgba(137, 137, 137, 0.02) 0%,
+      rgba(137, 137, 137, 0.02) 43%,
+      rgba(112, 112, 112, 0.02) 43%,
+      rgba(112, 112, 112, 0.02) 100%
+    ),
+    linear-gradient(
+      47deg,
+      rgba(184, 184, 184, 0.06) 0%,
+      rgba(184, 184, 184, 0.06) 36%,
+      rgba(32, 32, 32, 0.06) 36%,
+      rgba(32, 32, 32, 0.06) 100%
+    ),
+    linear-gradient(
+      83deg,
+      rgba(222, 222, 222, 0.07) 0%,
+      rgba(222, 222, 222, 0.07) 98%,
+      rgba(143, 143, 143, 0.07) 98%,
+      rgba(143, 143, 143, 0.07) 100%
+    ),
+    repeating-linear-gradient(
+      0deg,
+      rgba(244, 244, 244, 0.08) 0px,
+      rgba(244, 244, 244, 0.08) 72px,
+      rgba(155, 155, 155, 0.08) 72px,
+      rgba(155, 155, 155, 0.08) 179px,
+      rgba(102, 102, 102, 0.08) 179px,
+      rgba(102, 102, 102, 0.08) 477px,
+      rgba(133, 133, 133, 0.08) 477px,
+      rgba(133, 133, 133, 0.08) 580px,
+      rgba(83, 83, 83, 0.08) 580px,
+      rgba(83, 83, 83, 0.08) 614px
+    ),
+    repeating-linear-gradient(
+      135deg,
+      rgba(115, 115, 115, 0.03) 0px,
+      rgba(115, 115, 115, 0.03) 266px,
+      rgba(99, 99, 99, 0.03) 266px,
+      rgba(99, 99, 99, 0.03) 273px,
+      rgba(115, 115, 115, 0.03) 273px,
+      rgba(115, 115, 115, 0.03) 351px,
+      rgba(229, 229, 229, 0.03) 351px,
+      rgba(229, 229, 229, 0.03) 439px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      rgba(72, 72, 72, 0.01) 0px,
+      rgba(72, 72, 72, 0.01) 232px,
+      rgba(65, 65, 65, 0.01) 232px,
+      rgba(65, 65, 65, 0.01) 345px,
+      rgba(140, 140, 140, 0.01) 345px,
+      rgba(140, 140, 140, 0.01) 348px,
+      rgba(26, 26, 26, 0.01) 348px,
+      rgba(26, 26, 26, 0.01) 547px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      rgba(68, 68, 68, 0.05) 0px,
+      rgba(68, 68, 68, 0.05) 115px,
+      rgba(182, 182, 182, 0.05) 115px,
+      rgba(182, 182, 182, 0.05) 246px,
+      rgba(14, 14, 14, 0.05) 246px,
+      rgba(14, 14, 14, 0.05) 272px,
+      rgba(80, 80, 80, 0.05) 272px,
+      rgba(80, 80, 80, 0.05) 298px,
+      rgba(37, 37, 37, 0.05) 298px,
+      rgba(37, 37, 37, 0.05) 434px
+    ),
+    repeating-linear-gradient(
+      135deg,
+      rgba(46, 46, 46, 0.03) 0px,
+      rgba(46, 46, 46, 0.03) 107px,
+      rgba(169, 169, 169, 0.03) 107px,
+      rgba(169, 169, 169, 0.03) 182px,
+      rgba(71, 71, 71, 0.03) 182px,
+      rgba(71, 71, 71, 0.03) 321px,
+      rgba(182, 182, 182, 0.03) 321px,
+      rgba(182, 182, 182, 0.03) 359px
+    ),
+    linear-gradient(90deg, #084da4 0%, #01aeb6 100%);
+}
+
+.login-container {
+  margin: 0 auto;
+  width: 50%;
+  margin-top: 8vh;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 4px;
+  height: auto;
+  padding: 2rem;
+  box-shadow: 5px 6px 18px #888;
+}
+
+.login-container h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.form-logo {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.form-element {
+  width: 100%;
+}
+
+.form-element label {
+  display: block;
+  font-size: 22px;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.form-element input[type="text"],
+.form-element input[type="password"] {
+  width: 100%;
+  font-size: 22px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #555;
+}
+
+.login-container button {
+  width: 100%;
+  letter-spacing: 6px;
+  border-radius: 4px;
+  margin-top: 2rem;
+  font-size: 32px;
+  padding: 1rem;
+  background-color: rgb(20, 117, 202);
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background-color: rgb(0, 221, 223);
+}

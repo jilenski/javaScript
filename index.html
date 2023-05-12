@@ -4,9 +4,45 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>JavaScript</title>
   </head>
-  <body>
-    <script src="OOP.js"></script>
+  <body id="formlogin">
+    <div class="login-container">
+      <h2>Login Page</h2>
+      <br />
+
+      <div class="form-logo">
+        <img src="img/index.png" alt="" />
+      </div>
+
+      <form action="" method="post" id="myForm">
+        <div class="form-element">
+          <label>Username</label>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Enter Username"
+            autocomplete="off"
+            required
+          />
+        </div>
+
+        <div class="form-element">
+          <label>Password</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Enter Password"
+            required
+          />
+        </div>
+
+        <button type="submit" name="login">Login</button>
+      </form>
+    </div>
+    <script src="js/DOMSelection.js"></script>
   </body>
 </html>
